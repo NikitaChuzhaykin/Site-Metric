@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="images/header/logo.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+  <title>Metric</title>
+</head>
+
+<body>
+  <section class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="#" class="header__logo">Metric</a>
+        <div class="header__menu">
+          <ul class="menu__list">
+            <li><a href="#features" class="menu__link">Features</a></li>
+            <li><a href="#pricing" class="menu__link">Pricing</a></li>
+            <li><a href="#customers" class="menu__link">Customers</a></li>
+            <li><a id="buttonSignUp" href="#" class="menu__link">Sign Up</a></li>
+          </ul>
+        </div>
+        <img id="menuBurger" src="images/header/burger-menu-svgrepo-com.svg" alt="burger" class="menu__burger db"
+          draggable="false">
+        <img id="menuCancel" src="images/header/cancel-cross_icon-icons.com_71726.svg" alt="cancel" class="menu__cancel"
+          draggable="false">
+      </div>
+    </div>
+
+    <div id="menuAdaptive" class="menu__adaptive">
+      <div class="adaptive__line"></div>
+      <ul id="adaptiveList" class="adaptive__list">
+        <li><a href="#features" class="menu__link adp">Features</a></li>
+        <div class="adaptive__line"></div>
+        <li><a href="#pricing" class="menu__link adp ">Pricing</a></li>
+        <div class="adaptive__line"></div>
+        <li><a href="#customers" class="menu__link adp">Customers</a></li>
+        <div class="adaptive__line"></div>
+        <li><a id="buttonSignUp" class="menu__link adp">Sign Up</a></li>
+        <div class="adaptive__line"></div>
+      </ul>
+    </div>
+    
+  </section>
+
+  <div id="upmodal" class="upmodal">
+    <div class="upmodal__window">
+      <img id="upcancel" class="upcancel" src="images/upmodal/cancel.svg" alt="cancel">
+      <p class="upmodal__title">Sign Up</p>
+      <form action="#" class="upform">
+        <input id="upInput" type="email" class="upinput" placeholder="E-Mail" required>
+        <input id="upInput" type="password" class="upinput" placeholder="Password" required>
+        <p class="uptext">By clicking the button, you agree to<a href=""><span> processing of personal data</span></a>
+        </p>
+        <button id="buttonSignUp" class="upbutton" type="submit">Sign Up</button>
+      </form>
+    </div>
+    <div id="upoveraly" class="upoveraly"></div>
+  </div>
+
+  <section class="offer">
+    <div class="container">
+      <div class="offer__inner">
+        <div class="offer_content">
+          <p class="ocontent__title">Grow Your Business 10x with Metric</p>
+          <p class="ocontent__subtitle">The Metric Dashboard brings all of your business insights under one roof.
+            Revenue metrics, social, integrations -
+            everything.</p>
+          <div class="ocontent__button">
+            <button id="buttonSignUp" class="ocontent__submbtn">Sign Up</button>
+            <button class="ocontent__morebtn">Learn More</button>
+          </div>
+        </div>
+        <div class="offer__img">
+          <img src="images/offer/screen site.png" alt="screen site" class="oimg" draggable="false">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="press">
+    <div class="container">
+      <div class="press__inner">
+        <p class="press__title">IN THE PRESS</p>
+        <div class="press__img">
+          <img id="parrowLeftOne" class="parrow" src="images/slider/arrow-left.svg" alt="">
+          <div class="sliderImg" id="sliderImgOne">
+            <img src="images/press/fastcompany.svg" alt="fastcompany" class="pimg" draggable="false">
+            <img src="images/press/forbes.svg" alt="forbes" class="pimg" draggable="false">
+            <img src="images/press/techcrunch.svg" alt="techcrunch" class="pimg" draggable="false">
+            <img src="images/press/wired.svg" alt="wired" class="pimg" draggable="false">
+            <img src="images/press/zdnet.svg" alt="zdnet" class="pimg" draggable="false">
+          </div>
+          <img id="parrowRightOne" class="parrow" src="images/slider/arrow-right.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="functions" id="features">
+    <img src="images/functions/icons/Made in Webflow.svg" alt="Made" class="made__icon" draggable="false">
+    <div class="container">
+      <div class="functions__inner">
+        <p class="saad__title">Sync Across All Devices</p>
+        <p class="saad__subtitle">Everything you need to make your business grow super fast!</p>
+        <div class="saad__content">
+          <img src="images/functions/Web Application.png" alt="Web Application" class="simg webimg" draggable="false">
+          <div class="scontent">
+            <img src="images/functions/icons/Web Application.svg" alt="Web Application" class="scontent__img"
+              draggable="false">
+            <p class="scontent__title">Web Application</p>
+            <p class="scontent__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+              enim in eros elementum tristique.
+              Consectetur adipiscing elit.</p>
+          </div>
+        </div>
+
+        <div class="saad__content">
+          <div class="scontent">
+            <img src="images/functions/icons/Mobile App.svg" alt="Mobile App" class="scontent__img" draggable="false">
+            <p class="scontent__title">Mobile App</p>
+            <p class="scontent__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+              enim in
+              eros elementum tristique.
+              Consectetur adipiscing elit.</p>
+          </div>
+          <img src="images/functions/Mobile App.png" alt="" class="simg" draggable="false">
+        </div>
+      </div>
+      <div class="functions__card">
+        <div class="fcard">
+          <img src="images/functions/icons/Dashboard.svg" alt="Dashboard" class="fcard__icon" draggable="false">
+          <p class="fcard__title">Dashboard</p>
+          <p class="fcard__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
+            eros
+            elementum tristique.</p>
+        </div>
+
+        <div class="fcard">
+          <img src="images/functions/icons/Custom Rules.svg" alt="Custom Rules" class="fcard__icon" draggable="false">
+          <p class="fcard__title">Custom Rules</p>
+          <p class="fcard__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
+            eros
+            elementum tristique.</p>
+        </div>
+
+        <div class="fcard">
+          <img src="images/functions/icons/Presets.svg" alt="Presets" class="fcard__icon" draggable="false">
+          <p class="fcard__title">Presets</p>
+          <p class="fcard__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
+            eros
+            elementum tristique.</p>
+        </div>
+
+        <div class="fcard">
+          <img src="images/functions/icons/Metrics.svg" alt="Metrics" class="fcard__icon" draggable="false">
+          <p class="fcard__title">Metrics</p>
+          <p class="fcard__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
+            eros
+            elementum tristique.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="plans" id="pricing">
+    <div class="container">
+      <div class="plans__inner">
+        <p class="plans__title">Plans & Pricing</p>
+        <p class="plans__subtitle">No credit card required. No risk, 30-day money back guarantee</p>
+        <div class="plans__pcard">
+          <div class="pcard">
+            <p class="pcard__title">Starter</p>
+            <p class="pcard__info">$15<span>/month</span></p>
+            <p class="pcard__info">500<span>Data Points</span></p>
+            <p class="pcard__info">1<span>Team Member</span></p>
+            <div class="pcard__line"></div>
+            <p class="pcard__func"><span>Email Support</span></p>
+            <p class="pcard__func">IOS and Android App</p>
+            <p class="pcard__func">Customizable Dashboard</p>
+            <p class="pcard__func">Metric API</p>
+            <button class="pcard__button">Choose Plan</button>
+          </div>
+
+          <div class="pcard">
+            <p class="pcard__title">Professional</p>
+            <p class="pcard__info">$30<span>/month</span></p>
+            <p class="pcard__info">2000<span>Data Points</span></p>
+            <p class="pcard__info">1<span>Team Member</span></p>
+            <div class="pcard__line"></div>
+            <p class="pcard__func"><span>Email Support</span></p>
+            <p class="pcard__func"><span>IOS and Android App</span></p>
+            <p class="pcard__func">Customizable Dashboard</p>
+            <p class="pcard__func">Metric API</p>
+            <button class="pcard__button">Choose Plan</button>
+          </div>
+
+          <div class="pcard">
+            <p class="pcard__title">Startup</p>
+            <p class="pcard__info">$75<span>/month</span></p>
+            <p class="pcard__info">5000<span>Data Points</span></p>
+            <p class="pcard__info">3<span>Team Member</span></p>
+            <div class="pcard__line"></div>
+            <p class="pcard__func"><span>Email Support</span></p>
+            <p class="pcard__func"><span>IOS and Android App</span></p>
+            <p class="pcard__func"><span>Customizable Dashboard</span></p>
+            <p class="pcard__func">Metric API</p>
+            <button class="pcard__button">Choose Plan</button>
+          </div>
+
+          <div class="pcard">
+            <p class="pcard__title">Business</p>
+            <p class="pcard__info">$250<span>/month</span></p>
+            <p class="pcard__info">15000<span>Data Points</span></p>
+            <p class="pcard__info">10<span>Team Member</span></p>
+            <div class="pcard__line"></div>
+            <p class="pcard__func"><span>Email Support</span></p>
+            <p class="pcard__func"><span>IOS and Android App</span></p>
+            <p class="pcard__func"><span>Customizable Dashboard</span></p>
+            <p class="pcard__func"><span>Metric API</span></p>
+            <button class="pcard__button">Choose Plan</button>
+          </div>
+        </div>
+        <p class="plans__link">Need more Data Points or Team Members? Please <a href="">contact us</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews" id="customers">
+    <div class="container">
+      <div class="reviews__inner">
+        <p class="reviews__title">What People Say About Us</p>
+        <div class="reviews__card">
+          <p class="rcard__content">“Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus
+            varius blandit sit am et non magna. Maecenas faucibus mollis interdum.”</p>
+          <img src="images/reviews/Kyle Killit.png" alt="Kyle Killit" class="rcard__img" draggable="false">
+          <p class="rcard__info">Kyle Killit <br>Designer at Tiempo Labs</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="company">
+    <div class="container">
+      <div class="company__inner">
+        <img id="parrowLeftTwo" class="parrowTwo" src="images/slider/arrow-left.svg" alt="">
+        <div class="company__images" id="sliderImgTwo">
+          <img src="images/company/gohnson&gohnson.svg" alt="gohnson&gohnson" class="cimg" draggable="false">
+          <img src="images/company/tesla.svg" alt="tesla" class="cimg" draggable="false">
+          <img src="images/company/ouya.svg" alt="ouya" class="cimg" draggable="false">
+          <img src="images/company/chartboost.svg" alt="chartboost" class="cimg" draggable="false">
+          <img src="images/company/mammoth.svg" alt="mammoth" class="cimg" draggable="false">
+          <img src="images/company/neutrohena.png" alt="neutrohena" class="cimg" draggable="false">
+        </div>
+        <img id="parrowRightTwo" class="parrowTwo" src="images/slider/arrow-right.svg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="container">
+      <div class="footer__inner">
+
+        <div id="signForm" class="footer__sign">
+          <p class="sign__logo">Metric</p>
+          <p class="sign__title">Sign up for our newsletter</p>
+          <form class="sign__form">
+            <input type="email" class="sign__input" placeholder="E-mail" required>
+            <button type="submit" class="sign__button">Sign up</button>
+          </form>
+          <div class="sign__img">
+            <a href=""><img src="images/footer/facebook.svg" alt="facebook" class="sign__svg" draggable="false"></a>
+            <a href=""><img src="images/footer/twitter.svg" alt="twitter" class="sign__svg" draggable="false"></a>
+            <a href=""><img src="images/footer/in.svg" alt="in" class="sign__svg" draggable="false"></a>
+            <a href=""><img src="images/footer/main.svg" alt="main" class="sign__svg" draggable="false"></a>
+          </div>
+        </div>
+
+        <div class="footer__menu">
+          <div class="fmenu">
+            <p class="fmenu__title">Company</p>
+            <ul class="fmenu__list">
+              <li><a href="" class="fmenu__link">Home</a></li>
+              <li><a href="" class="fmenu__link">Features</a></li>
+              <li><a href="" class="fmenu__link">Clients</a></li>
+              <li><a href="" class="fmenu__link">Pricing</a></li>
+              <li id="buttonSignUp" class="fmenu__link">Sign Up</li>
+            </ul>
+          </div>
+
+          <div class="fmenu">
+            <p class="fmenu__title">Product</p>
+            <ul class="fmenu__list">
+              <li><a href="" class="fmenu__link">Analytics</a></li>
+              <li><a href="" class="fmenu__link">Businesses</a></li>
+              <li><a href="" class="fmenu__link">Testimonials</a></li>
+              <li><a href="" class="fmenu__link">Integrations</a></li>
+            </ul>
+          </div>
+
+          <div class="fmenu">
+            <p class="fmenu__title">Legal</p>
+            <ul class="fmenu__list">
+              <li><a href="" class="fmenu__link">Privacy Policy</a></li>
+              <li><a href="" class="fmenu__link">Terms of Use</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="copyright">
+    <div class="container">
+      <p class="copyright__text">Copyright 2023 Metric. All Rights Reserved. Brand logos for demonstration purposes
+        only.</p>
+    </div>
+  </section>
+
+  <script src="scripts/burger.js"></script>
+  <script src="scripts/modal.js"></script>
+  <script src="scripts/slider.js"></script>
+</body>
+
+</html>
